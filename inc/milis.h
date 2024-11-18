@@ -22,11 +22,8 @@
 
 #endif
 
-#if MILIS_32BIT_TIME!=0
 #define MILIS_PROTOTYPE uint32_t milis(void)
-#else
-#define MILIS_PROTOTYPE uint16_t milis(void)
-#endif
+
 
 void init_milis(void);
 MILIS_PROTOTYPE;

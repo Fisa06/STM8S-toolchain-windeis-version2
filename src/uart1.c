@@ -7,8 +7,7 @@
  * Popis:   
  ****************************************************/
 
-#include "uart1.h"
-
+#include "../inc/uart1.h"
 
 void init_uart1(void)
 {
